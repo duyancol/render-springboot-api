@@ -14,6 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.HashSet;
 
 @SpringBootApplication
+    @ComponentScan(basePackages = "com.example.demo") 
 //@EnableWebSecurity
 //@EnableJpaRepositories
 //@ComponentScan(basePackages = {"com.example.demo", "com.example.demo.config"}) // Add the package containing JwtUtil
